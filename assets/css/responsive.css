@@ -1,0 +1,65 @@
+
+/*PC*/
+
+@media (min-width:64em){
+    #nav-mobie{
+        display: none;
+    }
+
+}
+
+/*ipad*/
+
+@media (min-width:46.25em) and (max-width:63.9375em){
+    #nav-mobie{
+        display: none;
+    }
+
+    #content .content-section{
+        max-width: 100%;
+    }
+     
+}
+
+
+/*tablet- mobie*/
+
+@media (max-width:46.1875em){
+   #header #nav{
+        display: none;
+    }
+
+    #header .searchicon{
+        display: none;
+    }
+    
+    #slider .slogan{
+        display: none;
+    }
+
+    #content .content-section{
+        max-width: 100%;
+    }
+
+    #band .nember-list .nember,
+    #tour .buy-ticket .ticket-city,
+    .infor-login{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+   
+    }
+
+    .name,
+    .mail{
+        float: none;
+        width: 100%;
+    }
+    
+    .mail{
+        margin-bottom: 2px;
+   
+    }
+    
+             
+}

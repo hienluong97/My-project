@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Band</title>
+    <link rel="icon" href="https://img.lovepik.com/element/45000/2939.png_860.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+   
+
+</head>
+<body>
+
+<div id="main">
+    <div id="header">
+     <!--Begin: nav-->
+       <ul id="nav">
+           <li><a href="#">Home</a></li>
+           <li><a href="#band">Band</a></li>
+           <li><a href="#tour">Tour</a></li>
+           <li><a href="#contact">Contact</a></li>
+           <li>
+               <a href="">More
+                   <i class="more ti-angle-down"></i>
+               </a>
+               <ul class="subnav">
+                   <li><a href="#">Mechaindies</a></li>
+                   <li><a href="#">Extras</a></li>
+                   <li><a href="#">Media</a></li>
+               </ul>
+            </li>
+       </ul>
+  
+       <div class="searchicon">
+        <i class="ti-search"></i>
+       </div>
+
+
+      <!--Begin: nav-mobie-tablet -->
+    <div id="nav-mobie">
+      
+        <div class="nav-main"><p>HOME</p></div>
+        <div> 
+            <i class="ti-menu" onclick="showsubnav()"></i>
+                <ul id="subnav-mobie">
+                    <li onclick="closesubnav()"><a href="#band">Band</a></li>
+                    <li onclick="closesubnav()"><a href="#tour">Tour</a></li>
+                    <li onclick="closesubnav()"><a href="#contact">Contact</a></li>    
+                    <li onclick="closesubnav()"><a href="#contact">Mechaindies</a></li>                 
+                </ul>
+            
+        </div>
+
+    </div>
+    
+
+     <!--End: nav-mobie-tablet-->
+
+
+    </div>
+
+    <!--Begin: slider-->
+    <div id="slider">
+        <div class="slogan">
+            <h2>Chicago</h2>
+            <p>Thank you, Chicago - A night we won't forget.</p>
+        </div>
+    </div>
+    <!--End: slider-->
+    <!--Begin: content-->
+    <div id="content">
+        <!--Begin: Nember-list-->
+        <div  id="band" class="content-section">
+           <h2 class="heading"> THE BAND </h2>
+           <p class="sub-heading">We love music </p> 
+           <p class="about">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         
+           <div class="row nember-list">
+               <div class="col col-3 text-center nember">
+                   <p class="nember-name"> Number-name </p>
+                   <img src="./assets/img/member.jpg" alt="name" class="nember-img">
+               </div>
+
+                <div class="col col-3 text-center nember">
+                <p class="nember-name"> Number-name </p>
+                <img src="./assets/img/member.jpg" alt="name" class="nember-img">
+               </div>
+
+               <div class="col col-3 text-center nember">
+                <p class="nember-name"> Number-name </p>
+                <img src="./assets/img/member.jpg" alt="name" class="nember-img">
+               </div>
+
+            
+
+           </div>
+                   
+        </div>
+        <!--End: Nember-list-->
+        
+        <!--Begin: tour-->
+        <div id="tour" class="tour">
+            <div class="content-section">
+            <h2 class="heading text-white "> TOUR DATES</h2>
+            <p class="sub-heading text-white">Remember to book your tickets! </h6> 
+            
+            <ul class="ticket">
+                <li class="ticket-m">September
+                    <span class="sold-out"> Sold out</span>
+                </li>
+                <li class="ticket-m"> October
+                    <span class="sold-out"> Sold out</span>
+                </li>
+                <li class="ticket-m"> November 
+                    <span class="quality"> 3 </span>
+                </li>
+            </ul>
+
+                 <div class="buy-ticket row">
+
+                     <div class="col col-3 ticket-city">
+                         <img src="./assets/img/city1.jpg" alt="" class="city">
+                           <div class="ticket-about">
+                              <h5 class="city-name">New York</h5>
+                              <p class="day">Sat 28 Nov 2016</p>
+                              <p class="show">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                              <button class="buy-button" href="#" onclick="open_ticketbox()"> Buy ticket</button>
+                           </div>
+                     </div>
+                     
+                     <div class="col col-3 ticket-city">
+                        <img src="./assets/img/city2.jpg" alt="" class="city">
+                          <div class="ticket-about">
+                             <h5 class="city-name"> Paris</h5>
+                             <p class="day">Fri 27 Nov 2016</p>
+                             <p class="show">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                             <button class="buy-button" href="#" onclick="open_ticketbox()"> Buy ticket</button> 
+                          </div>
+                    </div>
+
+                    <div class="col col-3 ticket-city">
+                        <img src="./assets/img/city3.jpg" alt="" class="city">
+                          <div class="ticket-about">
+                             <h5 class="city-name"> Sanfansico</h5>
+                             <p class="day">Sun 29 Nov 2016</p>
+                             <p class="show">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                             <button class="buy-button" href="#" onclick="open_ticketbox()"> Buy ticket</button> 
+                          </div>
+                    </div>
+
+                                        
+                    
+                 </div>
+            </div>
+        </div>
+        <!-- End: tour-->
+
+        <!--Begin: contact-->
+        <div id="contact" class="content-section">
+            <h2 class="heading"> CONTACT</h2>
+            <p class="sub-heading">Fan? Drop a note!</p> 
+
+            <div class="row infor-contact">
+
+                 <div class="col col-2 infor-login">
+                      <p class="ti-location-pin"> Chicago, US</p>
+                      <p class="ti-mobile"> Phone: <a href="tel:+00 151515">+00 151515</a> </p>
+                      <p class="ti-email"> Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                 </div>
+
+                 <div class="col col-2 infor-login">
+                   <form>
+                      <div class="row name-mail">
+                        <div class="col col-2 name">
+                        <input type="text" required  class="" value="" placeholder="Name">
+                        </div>
+
+                        <div class="col col-2 mail">
+                        <input type="email" required  class="" value="" placeholder="Email"> 
+                        </div>
+                     </div>
+
+                       <div class="row message">
+                         <div class="col col-1 message">
+                           <input type="text" required  class="" value="" placeholder="Message"> 
+                         </div>
+                       </div>
+
+                     <button class="send-button" href="#"> SEND</button> 
+                    </form>
+                 </div>
+            </div>
+        </div>
+         <!--End: contact-->
+
+    </div>
+    <!--End: content-->
+
+
+    <!--Map-->
+    <div class="map">
+        <img src="./assets/img/map.jpg" alt="Map">
+    </div>
+
+
+    <!--Footer-->
+    <div id="footer">
+        <a class="logo" href="#" class="">  <i class="ti-facebook"> </i></a>
+        <a class="logo" href="#" class=""> <i class="ti-twitter-alt"></i></a> 
+        <a class="logo" href="#" class="">  <i class="ti-instagram"></i></a>
+        <a class="logo" href="#" class=""><i class="ti-linkedin"></i></a>      
+        <p> Powered by <a href="#">w3.css</a></p>
+
+    </div>
+
+   </div>
+
+  <!--Begin: Modal-->
+    <div class="modal">
+
+        <div class="modal-ticket-box">
+            <div class="close-button ti-close" onclick="close_ticketbox()"></div>
+            <header class="header">
+                <i class="ti-bag"></i>
+                Tickets
+            </header>
+
+           <div class="content">
+              <label for="ticket-price" class="ticket-label ti-shopping-cart" > Tickets, $15 per person</label>
+              <input type="text" name="" id="ticket-price"  placeholder="How much?" >
+              <label for="ticket-mail" class="ticket-label ti-id-badge" >  Send To </label>
+              <input type="text" name="" id="ticket-mail" placeholder="Enter email">
+              <div class="pay-button">PAY 
+                  <i  class="ti-check"> </i>
+              </div>
+              <p> Need <a href="#" class="">help?</a></p>
+           </div>
+
+
+        </div>
+        
+    </div>
+ <!--End: Modal-->
+    
+ <script src="js.js"></script>    
+    
+</body>
+</html>
