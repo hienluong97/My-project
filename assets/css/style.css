@@ -51,6 +51,11 @@ html{
  .text-center{
     text-align: center;
 }
+  
+
+.change_display{
+    display: block !important; 
+}
 
 /**container**/
 
@@ -146,21 +151,33 @@ html{
 
 
 
-/* Nav - mobie-tabet*/
-#nav-mobie{
+/* Nav - mobile-tabet*/
+#nav-mobile{
     display: flex;
     justify-content: space-between;
 }
 
-#nav-mobie .nav-main p{
+#nav-mobile .nav-main p{
     color: #ffffff;
     padding: 0px 24px;
     font-size: 15px;
     line-height: 47px;
  }
 
+ #nav-mobile #subnav-mobile{
+    position: absolute;
+    top: 47px;
+    left: 0px;
+    width: 100%;
+    list-style-type: none;
+    background-color: black;
+    display: none;
+    box-shadow: 0 0 10px  rgba(0, 0 , 0 ,0.5) ;
+}
 
-#nav-mobie #subnav-mobie a{
+
+
+#nav-mobile #subnav-mobile a{
    color: white;
    padding: 0px 24px;
    font-size: 15px;
@@ -171,29 +188,17 @@ html{
 }
 
 
-#nav-mobie #subnav-mobie{
-        position: absolute;
-        top: 47px;
-        left: 0px;
-        width: 100%;
-        list-style-type: none;
-        background-color: black;
-        display: none;
-        box-shadow: 0 0 10px  rgba(0, 0 , 0 ,0.5) ;
-}
 
-
-
-#nav-mobie .ti-menu{
+#nav-mobile .ti-menu{
    color: #ffffff;
    padding: 16px 16px;
    font-size: 15px;
    line-height: 47px;
 }
 
-#nav-mobie p:hover,
-#nav-mobie .ti-menu:hover,
-#nav-mobie #subnav-mobie li:hover a{
+#nav-mobile p:hover,
+#nav-mobile .ti-menu:hover,
+#nav-mobile #subnav-mobile li:hover a{
    color: black;
    background-color:#ccc ;
 }
@@ -375,8 +380,9 @@ html{
 
 .content-section .infor-login input{
     font-size: 15px;
-    padding : 8px 8px;
-    border: #ccc solid 1;
+    padding : 8px 8px;  
+    border: #757575 solid 1px;
+    border-radius: 3px;
     margin-bottom:6px;
     width: 100%;
  }

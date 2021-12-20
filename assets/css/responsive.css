@@ -1,17 +1,16 @@
 
 /*PC*/
 
-@media (min-width:64em){
-    #nav-mobie{
+@media (min-width: 64em) {
+    #nav-mobile{
         display: none;
     }
-
 }
 
 /*ipad*/
 
-@media (min-width:46.25em) and (max-width:63.9375em){
-    #nav-mobie{
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #nav-mobile {
         display: none;
     }
 
@@ -22,7 +21,7 @@
 }
 
 
-/*tablet- mobie*/
+/*tablet- mobile*/
 
 @media (max-width:46.1875em){
    #header #nav{
@@ -47,7 +46,6 @@
         float: none;
         width: 100%;
         margin-bottom: 20px;
-   
     }
 
     .name,
@@ -58,8 +56,5 @@
     
     .mail{
         margin-bottom: 2px;
-   
-    }
-    
-             
+    }          
 }
